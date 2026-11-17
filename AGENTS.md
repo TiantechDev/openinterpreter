@@ -318,3 +318,14 @@ Tests and features must support Linux, macOS and Windows unless feature is expli
 
 Codex supports running connected app-server and exec-server on different operating systems. See the
 `$remote-tests` skill for details about integration testing these configurations.
+
+## TianTech GitHub & AI Engineering Standard (organization policy)
+
+- Default GitHub owner: `TiantechDev`; use `kaptangece53` only for explicit legacy or personal references.
+- Prefer connected GitHub Agent for targeted repository work; GitHub CLI only for unsupported operations.
+- Reserve Codex for substantial software engineering; minimize token consumption with scoped context and no repeated full-tree analysis.
+- Use verified Enterprise features already included in the organization's subscription. Do not enable extra-cost licenses, add-ons or metered services without approval.
+- Minimize GitHub Actions consumption and preserve manual runner preferences; do not trigger CI for documentation-only changes.
+- Do not deploy production or publish releases without explicit authorization.
+- Enforce least privilege, secret hygiene, branch protection and required review safeguards.
+- Make minimal reversible changes, respect repository-specific instructions and existing tests, and report actual verification plus remaining risks.
